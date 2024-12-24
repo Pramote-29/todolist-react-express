@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import Todo from './components/Todo'
-import './App.css'
+import { useState } from "react";
+import Todo from "./components/Todo";
+import "./App.css";
+import { ToastContainer, toast } from "react-toastify";
 
 function App() {
-
   return (
-   <>
-    <Todo/>
-   </>
-  )
+    <>
+      <ToastContainer />
+      <Todo />
+    </>
+  );
 }
 
-export default App
+export default App;
